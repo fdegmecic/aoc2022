@@ -2,7 +2,7 @@ class Day01(fileName: String) {
 
     private val calories = readInputsAsString(fileName)
 
-    fun solveDayOne(numberOfElves: Int): Int {
+    fun getElfSnackCalories(numberOfElves: Int): Int {
         return calories
             .trim()
             .split("\n\n")
